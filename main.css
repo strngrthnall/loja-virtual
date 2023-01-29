@@ -12,7 +12,7 @@
   padding: 16px 0;
 }
 
-header {
+header, footer {
   background-color: #3867d5;
 }
 
@@ -106,4 +106,9 @@ header a:hover {
   background-color: #335ec2;
   color: rgb(223, 223, 223);
   cursor: pointer;
+}
+
+footer a {
+  color: white;
+  font-weight: bold;
 }
