@@ -151,3 +151,43 @@ footer a {
   }
 
 }
+
+@media screen and (max-width: 640px) {
+  .container {
+    max-width: 640px;
+    padding: 8px 32px;
+  }
+
+  header a {
+    padding: 0;
+  }
+
+  .sobre {
+    display: inline-block;
+    align-items: left;
+  }
+
+  .sobre img {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .texto-secao {
+    margin-left: 0;
+    margin-top: 32px;
+  }
+
+  .produtos {
+    display: inline-table;
+    max-width: 100%;
+  }
+
+  .produto {
+    max-width: 100%;
+    margin-bottom: 32px;
+  }
+
+  .img-produto {
+    width: 100%;
+  }
+}
