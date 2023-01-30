@@ -169,7 +169,7 @@ footer a {
 
   .sobre img {
     max-width: 100%;
-    width: 100%;
+    width: auto;
   }
 
   .texto-secao {
@@ -180,6 +180,7 @@ footer a {
   .produtos {
     display: inline-table;
     max-width: 100%;
+    width: 100%;
   }
 
   .produto {
@@ -188,6 +189,8 @@ footer a {
   }
 
   .img-produto {
-    width: 100%;
+    display: block;
+    margin: 32px auto;
+    width: auto;
   }
 }
